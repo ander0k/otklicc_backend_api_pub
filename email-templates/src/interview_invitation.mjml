@@ -1,0 +1,17 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+	<mj-text font-size="16px" color="#1d1d1f" font-family="arial, helvetica, sans-serif;" line-height="1.4">
+	  {{ content }}
+	</mj-text>
+	<mj-button padding="20px 0px" href="{{ link }}" background-color="#5856D6" color="white" inner-padding="12px 20px" border-radius="20px" font-size="18px" font-family="arial, helvetica, sans-serif;" line-height="1">
+	Перейти к вакансии</mj-button>
+	<mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+	<mj-text font-size="12px" color="#1d1d1f" font-family="arial, helvetica, sans-serif;" line-height="1.4">
+	  Это письмо написано {{ hr_name }} {{ hr_last_name }} – сотрудником компании <a href="{{ company_link }}" style="text-decoration:none;color:#68AFE6">{{ company_name }}</a>.
+	  Если хотите связаться с ним – напишите по адресу <a href="mailto:{{ hr_email }}" style="text-decoration:none;color:#68AFE6">{{ hr_email }}</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

@@ -1,0 +1,10 @@
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('CLIENT_ID', null, '484299695878-ghv7moe0cevvra7jkf56e4dqmh3fm8ae.apps.googleusercontent.com', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('SMTP_TLS', null, 'True', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('SMTP_PORT', null, '25', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('SMTP_HOST', null, 'email-smtp.eu-west-2.amazonaws.com', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('SMTP_USER', null, 'AKIARI23VGNCQ5FMVWFN', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('SMTP_PASSWORD', null, 'BG5BpanqDnIwaZxXcZy1rw4mczRdY5zZWzrI0Gds+a6m', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('FRONT_HOST', null, 'https://otkli.cc', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('EMAILS_FROM_EMAIL', null, 'send@otkli.cc', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('SECRET_KEY', null, 'bbq9heX13ULmibRm-Ja08eJ9Q-7kEZd71S_3XyA7CSc', 1);
+INSERT INTO tcdbinfo (name, mask, value, tag) VALUES ('EMAILS_FROM_NAME', null, 'otkli.cc', 1);

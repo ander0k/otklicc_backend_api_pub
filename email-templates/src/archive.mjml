@@ -1,0 +1,15 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="16px" color="#1d1d1f" font-family="arial, helvetica, sans-serif;" line-height="1.4">
+          Вакансия <a href="{{ link }}/{{ vac_code }}/" style="color:#1d1d1f">{{ vac_title }}</a>
+	  в компании <a href="{{ link }}/company/{{ comp_code }}/" style="color:#1d1d1f">{{ comp_title }}</a> перемещена в архив.</mj-text>
+
+        <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+        <mj-text font-size="12px" color="#1d1d1f" font-family="arial, helvetica, sans-serif;" line-height="1.4">
+          Это письмо сгенерировано автоматически, поэтому не отвечайте на него. Если хотите связаться со службой поддержки напишите по адресу <a href="mailto:help@otkli.cc" style="text-decoration:none;color:#68AFE6">help@otkli.cc</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

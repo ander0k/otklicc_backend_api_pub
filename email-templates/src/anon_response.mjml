@@ -1,0 +1,22 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="16px" color="#1d1d1f" font-family="arial, helvetica, sans-serif;" line-height="1.4">
+          Чтобы подтвердить отклик на вакансию {{ vacancy_name }} – нажмите на кнопку. Если это были не вы, то просто проигнорируйте письмо.
+        </mj-text>
+
+                <mj-text font-size="16px" color="#1d1d1f" font-family="arial, helvetica, sans-serif;" line-height="1.4">
+	Когда работодатель оценит отклик – вы получите письмо с фидбеком или приглашение на собеседование. После регистрации вы получите доступ ко всем предыдущим откликам.
+        </mj-text>
+                <mj-button padding="20px 0px" href="{{ link }}" background-color="#5856D6" color="white" inner-padding="12px 20px" border-radius="20px" font-size="18px" font-family="arial, helvetica, sans-serif;" line-height="1">Подтвердить отклик</mj-button>
+        <mj-text font-size="16px" color="#1d1d1f" font-family="arial, helvetica, sans-serif;" line-height="1.4">
+          Кнопка действительна {{ valid_hours }} часа.
+        </mj-text>
+        <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+        <mj-text font-size="12px" color="#1d1d1f" font-family="arial, helvetica, sans-serif;" line-height="1.4">
+          Это письмо сгенерировано автоматически, поэтому не отвечайте на него. Если хотите связаться со службой поддержки напишите по адресу <a href="mailto:help@otkli.cc" style="text-decoration:none;color:#68AFE6">help@otkli.cc</a></mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
